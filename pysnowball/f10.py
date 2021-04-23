@@ -1,6 +1,3 @@
-import json
-import os
-from pysnowball import cons
 from pysnowball import api_ref
 from pysnowball import utls
 
@@ -25,7 +22,7 @@ def holders(symbol):
     return utls.fetch(url)
 
 
-def bonus(symbol,page=1,size=10):
+def bonus(symbol, page=1, size=10):
     url = api_ref.f10_bonus+symbol
     url = url + '&page='+str(page)
     url = url + '&size='+str(size)

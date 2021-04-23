@@ -1,6 +1,3 @@
-import json
-import os
-from pysnowball import cons
 from pysnowball import api_ref
 from pysnowball import utls
 

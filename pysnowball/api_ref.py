@@ -1,10 +1,11 @@
 
 # finance
-finance_cash_flow_url = "https://stock.xueqiu.com/v5/stock/finance/cn/cash_flow.json?symbol="
-finance_indicator_url = "https://stock.xueqiu.com/v5/stock/finance/cn/indicator.json?symbol="
-finance_balance_url = "https://stock.xueqiu.com/v5/stock/finance/cn/balance.json?symbol="
-finance_income_url = "https://stock.xueqiu.com/v5/stock/finance/cn/income.json?symbol="
-finance_business_url = "https://stock.xueqiu.com/v5/stock/finance/cn/business.json?symbol="
+finance_base = "https://stock.xueqiu.com/v5/stock/finance"
+# finance_cash_flow_url = "https://stock.xueqiu.com/v5/stock/finance/{}/cash_flow.json?symbol="
+# finance_indicator_url = "https://stock.xueqiu.com/v5/stock/finance/{}/indicator.json?symbol="
+# finance_balance_url = "https://stock.xueqiu.com/v5/stock/finance/{}/balance.json?symbol="
+# finance_income_url = "https://stock.xueqiu.com/v5/stock/finance/{}/income.json?symbol="
+# finance_business_url = "https://stock.xueqiu.com/v5/stock/finance/{}/business.json?symbol="
 
 # report
 report_latest_url = "https://stock.xueqiu.com/stock/report/latest.json?symbol="
@@ -33,3 +34,6 @@ f10_indicator = "https://stock.xueqiu.com/v5/stock/f10/cn/indicator.json?symbol=
 # real time
 realtime_quote = "https://stock.xueqiu.com/v5/stock/realtime/quotec.json?symbol="
 realtime_pankou = "https://stock.xueqiu.com/stock/pankou.json?symbol="
+
+# stock population
+population_base = "https://xueqiu.com/service/v5/stock/screener/quote/list"

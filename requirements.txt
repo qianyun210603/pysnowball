@@ -1,0 +1,5 @@
+pandas
+requests
+setuptools
+numpy
+urllib3
