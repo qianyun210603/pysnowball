@@ -37,3 +37,6 @@ realtime_pankou = "https://stock.xueqiu.com/stock/pankou.json?symbol="
 
 # stock population
 population_base = "https://xueqiu.com/service/v5/stock/screener/quote/list"
+
+# kline
+kline_base = "https://stock.xueqiu.com/v5/stock/chart/kline.json?indicator=kline"

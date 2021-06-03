@@ -10,4 +10,3 @@ def quotec(symbols):
 def pankou(symbol):
     url = api_ref.realtime_pankou+symbol
     return utls.fetch(url)
-
